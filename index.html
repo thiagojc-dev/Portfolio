@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thiago Coronel — Desarrollador FullStack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav">
+    <div class="nav__brand">Thiago<span class="dot">.dev</span></div>
+    <nav class="nav__links">
+      <a href="#about">Sobre mi</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero__terminal">
+      <div class="terminal__bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="terminal__title">bash — zsh</span>
+      </div>
+      <div class="terminal__body">
+        <p><span class="prompt">visitante@web</span>:<span class="path">~</span>$ que haces?</p>
+        <p id="typedOutput" class="typed"></p>
+        <p class="cursor-line"><span class="prompt">visitante@web</span>:<span class="path">~</span>$ <span class="blink">▊</span></p>
+      </div>
+    </div>
+    <div class="hero__text">
+      <p class="eyebrow">// disponible para nuevos proyectos</p>
+      <h1>Hola, soy <span class="accent">Thiago Coronel</span>.<br>Desarollador FullStack.</h1>
+      <p class="hero__sub">Desarrollador FullStack en formación. Me gusta convertir problemas reales en interfaces simples y código prolijo.</p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">Ver proyectos</a>
+        <a href="#contact" class="btn btn--ghost">Hablemos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <p class="section__label">Sobre mi</p>
+    <h2>Informacíon</h2>
+    <p class="section__text">
+      Soy un Joven Argentino dando sus primeros pasos como desarrollador FullStack, poniendo en practica sus conocimientos sobre HTML, CSS, JavaScript,
+      React y Node.js. Este mismo sitio es mi primer proyecto: lo construí desde cero
+      para practicar estructura, estilos y algo de lógica con JS.
+    </p>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <p class="section__label">Proyectos</p>
+    <h2>Mi experiencia plasmada en practica</h2>
+    <div class="projects__grid" id="projectsGrid">
+      <!-- Las cards se generan con JS desde script.js -->
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <p class="section__label">Habilidades</p>
+    <h2>Stack</h2>
+    <div class="skills__grid">
+      <div class="skill-tag">HTML5</div>
+      <div class="skill-tag">CSS3</div>
+      <div class="skill-tag">JavaScript</div>
+      <div class="skill-tag">Python</div>
+      <div class="skill-tag">Git &amp; GitHub</div>
+      <div class="skill-tag skill-tag--soon">React</div>
+      <div class="skill-tag skill-tag--soon">Node.js</div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section section--contact">
+    <p class="section__label">Contacto</p>
+    <h2>Hablemos</h2>
+    <p class="section__text">¿Tenés una idea, una oportunidad o simplemente querés saludar? Escribime.</p>
+    <div class="contact__links">
+      <a href="mailto:coronelthiagoj@gmail.com">coronelthiagoj@gmail.com</a>
+      <a href="https://github.com/thiagojc-dev" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/thiago-coronel-19826b385/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Realizado con HTML, CSS y JS · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
