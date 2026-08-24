@@ -35,12 +35,7 @@ if (prefersReducedMotion) {
 } else {
   typeWriter();
 }
-
-// ==========================================
-// 4. Proyectos: se cargan desde un array de datos
-//    (así aprendés a separar datos de presentación,
-//    y en el futuro esto podría venir de una API)
-// ==========================================
+// 
 const proyectos = [
   {
     tag: "// vanilla js",
@@ -53,8 +48,8 @@ const proyectos = [
     tag: "// api pública",
     titulo: "Buscador de Clima",
     descripcion: "Consulta el clima de cualquier ciudad usando fetch() y una API pública.",
-    demo: "#",
-    codigo: "#",
+    demo: "https://thiagojc-dev.github.io/buscador-clima/",
+    codigo: "https://github.com/thiagojc-dev/buscador-clima",
   },
   {
     tag: "// css + js",
