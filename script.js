@@ -28,7 +28,7 @@ function typeWriter() {
   }
 }
 
-// Respeta la preferencia de "reduced motion" del usuario
+
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 if (prefersReducedMotion) {
   typedOutput.textContent = textToType;
@@ -55,8 +55,8 @@ const proyectos = [
     tag: "// css + js",
     titulo: "Calculadora",
     descripcion: "Calculadora funcional con operaciones básicas y teclado numérico.",
-    demo: "#",
-    codigo: "#",
+    demo: "https://thiagojc-dev.github.io/Calculadora/",
+    codigo: "https://github.com/thiagojc-dev/Calculadora",
   },
   {
     tag: "// próximamente",
