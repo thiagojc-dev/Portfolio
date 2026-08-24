@@ -60,8 +60,8 @@ const proyectos = [
   },
   {
     tag: "// próximamente",
-    titulo: "Tu próximo proyecto",
-    descripcion: "Acá vas a sumar el siguiente escalón: React, una API propia, o lo que se te ocurra.",
+    titulo: "Mi próximo proyecto",
+    descripcion: "En proceso!. React, Node.js, etc. Próximamente más información.",
     demo: null,
     codigo: null,
   },
