@@ -46,8 +46,8 @@ const proyectos = [
     tag: "// vanilla js",
     titulo: "To-Do List",
     descripcion: "Lista de tareas con guardado en localStorage. Agregar, completar y borrar tareas.",
-    demo: "#",
-    codigo: "#",
+    demo: "https://thiagojc-dev.github.io/todo-list/",
+    codigo: "https://github.com/thiagojc-dev/todo-list",
   },
   {
     tag: "// api pública",
@@ -80,9 +80,9 @@ proyectos.forEach((proyecto) => {
 
   const links = proyecto.demo
     ? `<div class="project-card__links">
-         <a href="${proyecto.demo}" target="_blank" rel="noopener">Ver demo →</a>
-         <a href="${proyecto.codigo}" target="_blank" rel="noopener">Código</a>
-       </div>`
+        <a href="${proyecto.demo}" target="_blank" rel="noopener">Ver demo →</a>
+        <a href="${proyecto.codigo}" target="_blank" rel="noopener">Código</a>
+      </div>`
     : "";
 
   card.innerHTML = `
