@@ -55,8 +55,8 @@ const proyectos = [
     tag: "// css + js",
     titulo: "Calculadora",
     descripcion: "Calculadora funcional con operaciones básicas y teclado numérico.",
-    demo: "https://thiagojc-dev.github.io/Calculadora/",
-    codigo: "https://github.com/thiagojc-dev/Calculadora",
+    demo: "https://thiagojc-dev.github.io/calculadora/",
+    codigo: "https://github.com/thiagojc-dev/calculadora"
   },
   {
     tag: "// próximamente",
